@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(#20283c, #c1d6e8);
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+div {
+    background-color: #FFF;
+    padding: 20px;
+    width: 610px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: left;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #526289;
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 0;
+    padding: 17px;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    color: #526289;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#c1d6e8,#20283c);
+    transition: .5s ease-in-out;
+}
+
+button:hover {
+    background: #20283c;
+    
+}
+
+button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
