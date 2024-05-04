@@ -1,0 +1,37 @@
+#menu {
+    text-align: center;
+}
+
+#produtos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    h4 {text-align: center;}
+
+}
+
+.produto{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #e0d6d6;    
+    text-align: center;
+    padding: 10px;
+}
+ 
+.btns {
+    display: flex;
+    justify-content: space-evenly;       
+}
+
+.item-menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .5s;
+}
+
+.item-menu:hover{
+    font-size: 32px;
+}
