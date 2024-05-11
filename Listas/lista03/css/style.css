@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+background: rgb(16,24,47);
+background: linear-gradient(90deg, rgba(16,24,47,1) 35%, rgba(34,33,53,1) 100%);
+    height: 100%;
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+    color: #10182f;
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Jaro", sans-serif;
+    ;
+    padding: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #575b88;
+}
+
+h4 {
+    color: #575b88;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #575b88;
+    margin: 10px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+#menu a:hover {
+    font-size: 22px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.produto {
+    width: 295px;
+    height: 430px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.produto img:hover{
+    width: 255px;
+    height: 255px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.produto img {
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    border: none;
+    margin:0 5px;
+    border-radius: 5px;
+    background: linear-gradient(#575b88, #10182f);
+    background-color: #575b88;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background: linear-gradient(#10182f, #575b88)
+}
