@@ -12,7 +12,7 @@ var pessoa = {
         {
             nome: 'Luis',
             idade: 2
-        }
+        },
         {
             nome: 'Luciana',
             idade: 1
